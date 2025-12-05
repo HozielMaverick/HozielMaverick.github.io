@@ -14,4 +14,4 @@ Electric propulsion and avionics architecture redesigned project.
 
 
 ## Resume
-[Download Resume] (Maverick_Hoziel_CV_ENGLISH (1).pdf)
+[Download Resume](Maverick_Hoziel_CV_ENGLISH (1).pdf)
