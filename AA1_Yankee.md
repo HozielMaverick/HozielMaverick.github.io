@@ -92,7 +92,7 @@ R_cruise = 117 kt × 0.373 = 43.5 NM
 
 t_climb = 8000 / 710 = 11 min
 
-![Climb Geometry](images/aero_climb_angle_and_speed.jpg)
+![Climb Geometry](/images/aero_climb_angle_and_speed.jpg)
 
 Angle:
 
@@ -112,7 +112,7 @@ R_climb = 82.26 × 0.1833 = 15.1 NM
 
 Approach speed range: 80–90 mph → use 85 mph midpoint.
 
-![Descent Geometry](images/aero_descent_angle_and_speed.jpg)
+![Descent Geometry](/images/aero_descent_angle_and_speed.jpg)
 
 Descent angle:
 
@@ -135,7 +135,7 @@ R_descent = 73.70 × 0.2666 = 19.65 NM
 Verification:  
 Interpolated AC 700-028 value = 19.22 NM
 
-![Descent Verification](images/aero_descent_verif.jpg)
+![Descent Verification](/images/aero_descent_verif.jpg)
 
 ---
 
@@ -155,7 +155,7 @@ These results maintain a **10 kWh energy reserve**, giving a conservative estima
 
 ### 1. Removal of Lycoming-Dependent Electrical Systems
 
-![Electrical Systems Removed](images/aero_remove_electricals.jpg)
+![Electrical Systems Removed](/images/aero_remove_electricals.jpg)
 
 The following systems were removed entirely:  
 - Alternator and field circuits  
@@ -199,7 +199,7 @@ Because these systems relied on mechanical engine operation, they were eliminate
 
 ### 3. Reworked Electrical System Architecture
 
-![Electric System Diagram](images/ESD.jpg)
+![Electric System Diagram](/images/ESD.jpg)
 
 Circuit breakers are **not shown** for diagram clarity, but all components on both the HV and LV buses are properly fused or breaker-protected.
 
@@ -229,8 +229,8 @@ Circuit breakers are **not shown** for diagram clarity, but all components on bo
 
 ### 4. Cockpit Display Redesign
 
-![Cockpit Display Revisions](images/aero_CD.jpg)  
-![Component Conversion List](images/aero_list.jpg)
+![Cockpit Display Revisions](/images/aero_CD.jpg)  
+![Component Conversion List](/images/aero_list.jpg)
 
 ---
 
@@ -241,7 +241,7 @@ Uses a standalone AHRS module (GSU 25, MGL AHRS-1, etc.) to provide attitude dat
 
 **Fuel Tank Selector → Manual Coolant Override**  
 
-![Manual Coolant Override](images/aero_MCO.jpg)
+![Manual Coolant Override](/images/aero_MCO.jpg)
 
 **Carb Heat Control → Aviation-Grade USB-C Charger**  
 Provides shielded, RF-filtered power for portable avionics.
@@ -252,7 +252,7 @@ Provides shielded, RF-filtered power for portable avionics.
 
 V_out = 5 V × (R_top / (R_top + R_bottom))
 
-![Throttle Potentiometer System](images/aero_TC.jpg)
+![Throttle Potentiometer System](/images/aero_TC.jpg)
 
 ---
 
