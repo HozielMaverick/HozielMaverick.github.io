@@ -203,6 +203,7 @@ Because these systems relied on mechanical engine operation, they were eliminate
 
 Circuit breakers are **not shown** for diagram clarity, but all components on both the HV and LV buses are properly fused or breaker-protected.
 
+The system is divided into **three coordinated subsystems**:
 ---
 
 ### 3.1 Low-Voltage (LV) Bus
@@ -229,12 +230,20 @@ Circuit breakers are **not shown** for diagram clarity, but all components on bo
 
 ### 4. Cockpit Display Redesign
 
+To maintain familiar pilot workload and ergonomics, the cockpit was redesigned to preserve original gauge functionality where possible. The original panel from [3] was marked with:
+
+- **Red** → instruments removed entirely
+- **Yellow** → instruments replaced with electric equivalents
+
 ![Cockpit Display Revisions](/images/aero_CD.jpg)  
 ![Component Conversion List](/images/aero_list.jpg)
 
+Examples: - The tachometer becomes a digital RPM indicator driven from the inverter. - Oil temperature and pressure gauges are replaced with SOC/SOH from the BMS and motor temperature from the inverter.
+
 ---
 
-### 5. Reassigned Controls
+### 5. Reassigned Controls (Starred Components)
+Some cockpit controls were repurposed to serve new functions under electric propulsion:
 
 **Suction Gauge → AHRS**  
 Uses a standalone AHRS module (GSU 25, MGL AHRS-1, etc.) to provide attitude data.
@@ -244,15 +253,21 @@ Uses a standalone AHRS module (GSU 25, MGL AHRS-1, etc.) to provide attitude dat
 ![Manual Coolant Override](/images/aero_MCO.jpg)
 
 **Carb Heat Control → Aviation-Grade USB-C Charger**  
-Provides shielded, RF-filtered power for portable avionics.
+The Carb Heat Control becomes unused in an electric aircraft. Its panel location is repurposed for a **shielded, aviation-grade USB-C power outlet**. This provides clean, RF-filtered power for portable avionics such as EFB tablets, handheld GPS receivers, or communication devices, improving cockpit usability without increasing pilot workload.
 
 ---
 
 ### 6. Throttle Potentiometer System
 
+To preserve the pilot’s familiar throttle-push control, the mechanical throttle knob now drives a **potentiometer-based voltage divider**. This produces an analog voltage:
+
 V_out = 5 V × (R_top / (R_top + R_bottom))
 
+This signal is read by the inverter’s analog-input channel and mapped to torque or power demand. 
+
 ![Throttle Potentiometer System](/images/aero_TC.jpg)
+
+This architecture also enables software-level **power limiting**, ensuring the electric motor cannot exceed speeds that would exceed the aircraft’s structural control-surface limits.
 
 ---
 
