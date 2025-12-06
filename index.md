@@ -10,7 +10,7 @@ This site contains my techincal projects, simulations, and system designs.
 Electric propulsion and avionics architecture redesigned project.
 
 
-### Missile Tracking Game 
+### [Missile Tracking Game](Missile_Target.md) 
 3D missile-target interception game built in Python.
 
 
