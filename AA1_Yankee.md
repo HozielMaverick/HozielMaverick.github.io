@@ -199,7 +199,7 @@ Because these systems relied on mechanical engine operation, they were eliminate
 
 ### 3. Reworked Electrical System Architecture
 
-![Electric System Diagram](/images/ESD.jpg)
+![Electric System Diagram](/images/ESD.jpeg)
 
 Circuit breakers are **not shown** for diagram clarity, but all components on both the HV and LV buses are properly fused or breaker-protected.
 
