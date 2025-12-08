@@ -8,10 +8,15 @@ This site contains my techincal projects, simulations, and system designs.
 
 ### [AA-1 Yankee Electrical Propulsion Conversion](AA1_Yankee.md)
 Electric propulsion and avionics architecture redesigned project.
+![Circuit](/images/ESD.jpg)
 
 
 ### [Missile Tracking Game](Missile_Tracking_Simulation.md) 
 3D missile-target interception game built in Python.
+![Missile Tracking Game](/images/bomb_hit.jpg)
+
+### Circuit Simulation Solver
+Circuit simulation algorithm, MNA solver, BE and NR
 
 
 ## Resume
