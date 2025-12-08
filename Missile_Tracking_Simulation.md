@@ -9,13 +9,12 @@ The original open source code provided basic missile tracking and 3D plotting. I
 ## Screenshots
 ### Main Engagement View
 ![3D engagement overview](/images/sim_overview.jpg)
-
+### Missile Intercept Succesful
 ![Missile Intercept](/images/sim_intercept.jpg)
+### Missile Intercept Before Plane Drops Bomb
 ![Missile Intercept Before Bomb](/images/sim_intercept_no_bomb.jpg)
-
 ### Bomb Impact Example
 ![Bomb hit near enemy base](/images/bomb_hit.jpg)
-
 ### Successful Flare Spoof
 ![Flares spoofing missile](/images/flares_spoof.jpg)
 
