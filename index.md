@@ -18,11 +18,12 @@ Electric propulsion and avionics architecture redesigned project.
 
 ---
 
-### Circuit Simulation Solver
+### [Circuit Simulation Solver](Circuit_simulation.md)
 SPICE-style MNA solver that parses netlists and computes linear and nonlinear circuit behavior using Backward Euler and Newton–Raphson.
+<img src="/images/HB.jpg" width="330">
 
 ---
 
 
 ## Resume
-[Download Resume](Maverick_Hoziel_CV_ENGLISH.pdf)
+[**Download Resume**](Maverick_Hoziel_CV_ENGLISH.pdf)
