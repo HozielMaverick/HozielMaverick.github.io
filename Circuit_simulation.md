@@ -94,6 +94,7 @@ Additions in this stage:
 This shows how a frequency domain method like Harmonic Balance can reach the periodic steady state solution directly, while Backward Euler approaches the same steady state through time stepping.
 
 ![Circuit](/images/hbcirc.jpg)
+
 ![Harmonic Balance vs Backward Euleur Results](/images/HBBE.jpg)
 
 ---
