@@ -17,6 +17,8 @@ The original open source code provided basic missile tracking and 3D plotting. I
 ![Bomb hit near enemy base](/images/bomb_hit.jpg)
 ### Successful Flare Spoof
 ![Flares spoofing missile](/images/flares_spoof.jpg)
+### Plane not Detected by Missile - Stealth
+![Stealth](/images/stealth.jpg)
 
 ---
 
