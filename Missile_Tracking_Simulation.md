@@ -248,7 +248,7 @@ AIRCRAFT_TYPES = {
     ...
 }
 
-
 ---
-# Access to full code
+
+## Access to full code
 [Full code here](Missile_Game_code.md)
