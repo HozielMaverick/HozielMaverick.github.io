@@ -7,18 +7,17 @@ The original open source code provided basic missile tracking and 3D plotting. I
 ---
 
 ## Screenshots
-
-> Place screenshots inside an `images/` folder.  
-> Recommended screenshots are described below under **Suggested Images to Capture**.
-
 ### Main Engagement View
-![3D engagement overview](images/sim_overview.png)
+![3D engagement overview](/images/sim_overview.jpg)
+
+![Missile Intercept](/images/sim_intercept.jpg)
+![Missile Intercept Before Bomb](/images/sim_intercept_no_bomb.jpg)
 
 ### Bomb Impact Example
-![Bomb hit near enemy base](images/bomb_hit.png)
+![Bomb hit near enemy base](/images/bomb_hit.jpg)
 
 ### Successful Flare Spoof
-![Flares spoofing missile](images/flares_spoof.png)
+![Flares spoofing missile](/images/flares_spoof.jpg)
 
 ---
 
