@@ -47,12 +47,13 @@ aircraft_escaped = 0
 payload_delivered = 0  # TOTAL successful deliveries across completed engagements
 
 # Aircraft type definitions
-# (speeds + curve_min/curve_max from your old code, plus max_turn_rate)
+# (speeds + curve_min/curve_max from your old code, plus max_turn_rate and bomb_hit_prob)
 AIRCRAFT_TYPES = {
     "F22": {
         "color": "cyan",
         "flare_trigger_distance": 100.0,
         "flare_success_prob": 0.50,
+        "bomb_hit_prob": 0.50,
         "speed_min": 2300,
         "speed_max": 2400,
         "curve_min": 3,
@@ -63,7 +64,8 @@ AIRCRAFT_TYPES = {
     "A10": {
         "color": "orange",
         "flare_trigger_distance": 100.0,
-        "flare_success_prob": 0.70,
+        "flare_success_prob": 0.50,
+        "bomb_hit_prob": 0.60,
         "speed_min": 2000,
         "speed_max": 2100,
         "curve_min": 5,
@@ -74,7 +76,8 @@ AIRCRAFT_TYPES = {
     "B2": {
         "color": "blue",
         "flare_trigger_distance": 100.0,
-        "flare_success_prob": 0.50,
+        "flare_success_prob": 0.01,
+        "bomb_hit_prob": 0.90,
         "speed_min": 1700,
         "speed_max": 1800,
         "curve_min": 7,
@@ -85,7 +88,8 @@ AIRCRAFT_TYPES = {
     "X15": {
         "color": "magenta",
         "flare_trigger_distance": 100.0,
-        "flare_success_prob": 0.05,
+        "flare_success_prob": 0.10,
+        "bomb_hit_prob": 0.40,
         "speed_min": 3200,
         "speed_max": 3300,
         "curve_min": 10,
@@ -571,7 +575,7 @@ def generate_new_engagement():
 
                 post_profile_initialized = True
 
-                print(f"POST-BOMB PROFILE:")
+                print("POST-BOMB PROFILE:")
                 print(f"  Straight_time = {Straight_time:.1f} s")
                 print(f"  Curve_time1   = {curve_time1:.1f} s")
                 print(f"  Straight_time2= {Straight_time2:.1f} s")
@@ -588,24 +592,29 @@ def generate_new_engagement():
                 if bomb_states[i, 2] <= 0.0:
                     bomb_states[i, 2] = 0.0
                     bomb_active = False
-                    explosion_index = i
                     print(
                         f"Bomb hits ground at t = {t:.2f}s, "
                         f"pos = {bomb_states[i]}"
                     )
-                    # Only mark this engagement as having delivered payload.
+
+                    # Check distance to base and apply bomb hit probability
                     dist_to_base = np.linalg.norm(
                         bomb_states[i, :2] - base_position[:2]
                     )
-                    if (
-                        bomb_dropped
-                        and (bomb_drop_index is not None)
-                        and (i >= bomb_drop_index)
-                        and (dist_to_base <= 200.0)
-                        and (not payload_recorded)
-                    ):
-                        payload_recorded = True
-                        print("Payload successfully delivered on target!")
+                    if dist_to_base <= 200.0:
+                        p_hit = current_aircraft_params.get("bomb_hit_prob", 1.0)
+                        if random.random() < p_hit:
+                            payload_recorded = True
+                            explosion_index = i
+                            print("Bomb impact near base – HIT! Payload successfully delivered on target.")
+                        else:
+                            payload_recorded = False
+                            explosion_index = None
+                            print("Bomb impact near base – MISS, bomb did not strike the target.")
+                    else:
+                        payload_recorded = False
+                        explosion_index = None
+                        print("Bomb impact far from base – NO EFFECT on target.")
             else:
                 bomb_states[i] = bomb_states[i - 1]
 
@@ -933,7 +942,7 @@ def update(frame):
     # Engagement reset
     if outcome_index is not None:
         if current_index >= min(n_points - 1, outcome_index + post_intercept_frames):
-            # Update scores for *finished* engagement
+            # Update scores for finished engagement
             if outcome_type in ("missile", "crash"):
                 missile_neutralized_target += 1
             elif outcome_type == "aircraft":
@@ -985,7 +994,7 @@ def update(frame):
         bomb_trail.set_data([], [])
         bomb_trail.set_3d_properties([])
 
-    # Explosion marker
+    # Explosion marker only if we have a successful hit
     if explosion_index is not None and idx >= explosion_index:
         explosion_marker.set_data(
             [bomb_states[explosion_index, 0]],
