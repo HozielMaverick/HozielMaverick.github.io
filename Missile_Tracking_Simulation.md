@@ -247,7 +247,7 @@ AIRCRAFT_TYPES = {
     },
     ...
 }
-
+```
 ---
 
 ## Access to full code
