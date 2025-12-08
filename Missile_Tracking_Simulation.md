@@ -215,9 +215,4 @@ Runs the animation:
 - Automatically generates a new engagement after delay  
 
 ---
-
-## How To Run
-
-```bash
-pip install numpy matplotlib
-python missile_simulation.py
+# Access to full code
