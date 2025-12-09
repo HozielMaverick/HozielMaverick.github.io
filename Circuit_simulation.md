@@ -30,8 +30,10 @@ Key aspects:
 
 This stage focuses on getting the MNA formulation correct and matching DC results to known solutions or reference tools.
 
+**DC Netlist**
 ![DC Node Voltages Netlist](/images/dc_netlist.jpg)
 
+**DC MNA Matrices**
 ![DC MNA Matrices](/images/dc_mna.jpg)
 
 ---
@@ -50,8 +52,11 @@ New capabilities:
 
 At this stage the simulator becomes a nonlinear DC analysis tool that can handle rectifiers, clipping networks, and other diode based circuits.
 
+**DC Non Linear Netlist**
 ![DC non Linear Netlist](/images/dc_nl_netlist.jpg)
 
+
+**DC Non Linear MNA Matrices**
 ![DC non Linear MNA Matrices](/images/dc_nl_mna.jpg)
 
 ---
@@ -70,8 +75,10 @@ Main features:
 
 This stage turns the framework into a dynamic circuit simulator that can model charging and discharging, diode switching behavior, and other time varying phenomena.
 
+**Transient Analysis Netlist**
 ![Transient Circuit](/images/trancirc.jpg)
 
+**Transiant Analysis Output**
 ![Transient Output](/images/tranoutput.jpg)
 
 ---
@@ -93,8 +100,10 @@ Additions in this stage:
 
 This shows how a frequency domain method like Harmonic Balance can reach the periodic steady state solution directly, while Backward Euler approaches the same steady state through time stepping.
 
+**Steady State Analysis Circuit, f=1kHz, Is=1e-14, Vt=25mv**
 ![Circuit](/images/hbcirc.jpg)
 
+**HB VS BE Output**
 ![Harmonic Balance vs Backward Euleur Results](/images/hbbe.jpg)
 
 ---
