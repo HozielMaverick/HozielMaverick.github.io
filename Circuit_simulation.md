@@ -95,7 +95,7 @@ This shows how a frequency domain method like Harmonic Balance can reach the per
 
 ![Circuit](/images/hbcirc.jpg)
 
-![Harmonic Balance vs Backward Euleur Results](/images/HBBE.jpg)
+![Harmonic Balance vs Backward Euleur Results](/images/hbbe.jpg)
 
 ---
 
