@@ -23,6 +23,7 @@ Electric propulsion and avionics architecture redesigned project.
 ### [Circuit Simulation Solver](Circuit_simulation.md)
 SPICE-style MNA solver that parses netlists and computes linear and nonlinear circuit behavior using Backward Euler and Newton–Raphson.
 
+
 <img src="/images/hb.jpg" width="330">
 
 ---
