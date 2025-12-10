@@ -14,10 +14,9 @@ Electric propulsion and avionics architecture redesigned project.
 ---
 
 ### [Fly-By-Wire Implemented B2 Bomber Game](fbw_game.md)
-Implemented an FBW system to make a B2 Bomber plane stable in order to complete bombing mission
+Implemented a Fly-By-Wire (FBW) control system to stabilize an unstable B-2–style aircraft for a precision bombing mission.
 
-<img src="/images/fbw_diagram.jpg" width="165">
-<img src="/images/fbw_game.jpg" width="165">
+<img src="/images/fbw_diagram.jpg" width="330">
 
 ---
 
