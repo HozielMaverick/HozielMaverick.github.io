@@ -13,6 +13,13 @@ Electric propulsion and avionics architecture redesigned project.
 
 ---
 
+### [Fly-By-Wire Implemented B2 Bomber Game](fbw_game.md)
+Implemented an FBW system to make a B2 Bomber plane stable in order to complete bombing mission
+
+<img src="/images/fbw.jpg" width="330">
+
+---
+
 ### [Missile Tracking Game](Missile_Tracking_Simulation.md) 
 3D missile-target interception game built in Python.
 
