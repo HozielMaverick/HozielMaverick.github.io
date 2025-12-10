@@ -37,4 +37,4 @@ SPICE-style MNA solver that parses netlists and computes linear and nonlinear ci
 
 
 ## Resume
-[**Download Resume**](CV_Maverick_Hoziel.pdf)
+[**Download Resume**](CV_Maverick_Hoziel_12_10_2025.pdf)
