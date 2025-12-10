@@ -16,7 +16,9 @@ The full simulation includes:
 
 # FBW Block Diagram
 
-![**FBW Block Diagram Used for Code**](/images/fbw_diagram.jpg)
+**FBW Block Diagram Used for Code**
+
+![FBW Block Diagram](/images/fbw_diagram.jpg)
 
 Below, each block in the diagram is mapped directly to the Python code that implements it.
 
@@ -255,7 +257,9 @@ lines = [
 
 # Gameplay Overview
 
-![**Gameplay**](/images/fbw_game.jpg)
+**Gameplay**
+
+![Gameplay](/images/fbw_game.jpg)
 
 ### 1. Ingress
 Fly stably with FBW ON while disturbances try to destabilize you.
