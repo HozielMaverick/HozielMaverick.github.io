@@ -9,7 +9,7 @@ This site contains my techincal projects, simulations, and system designs.
 ### [AA-1 Yankee Electrical Propulsion Conversion](AA1_Yankee.md)
 Electric propulsion and avionics architecture redesigned project.
 
-<img src="/images/ESD.jpg" width="660">
+<img src="/images/ESD.jpg" width="500">
 
 ---
 
