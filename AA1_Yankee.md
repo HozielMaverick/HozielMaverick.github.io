@@ -202,7 +202,7 @@ Because these systems relied on mechanical engine operation, they were eliminate
 
 The completed electric-propulsion wiring architecture is shown below:
 
-![Electric System Diagram](/images/ESD.jpg)
+![Electric System Diagram](/images/ESD2.jpg)
 
 Circuit breakers are **not shown** in the reworked diagram for clarity; however, all loads on both the LV and HV buses are protected with appropriately sized breakers or fuses according to aviation electrical-wiring standards.
 
