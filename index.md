@@ -20,7 +20,7 @@ Implemented a Fly-By-Wire (FBW) control system to stabilize an unstable B-2–st
 
 ---
 
-### [Missile Tracking Game](Missile_Tracking_Simulation.md) 
+### [Missile Tracking Simulation](Missile_Tracking_Simulation.md) 
 3D missile-target interception game built in Python.
 
 <img src="/images/bomb_hit.jpg" width="660">
