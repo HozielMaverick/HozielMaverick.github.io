@@ -21,13 +21,13 @@ Key requirements:
   - Complies with FAA 14 CFR Part 25
   - Takeoff & landing on a 6,000 ft runway
   - Capable of VFR and IFR flight
-  - Seating for 8 passengers with 60 in in pitch and 22 inc in width
-  - Pressurization capability for 6,000 feet cabin altitude at maximum service ceiling
+  - Seating for 8 passengers (60 in in pitch and 22 in in width)
+  - Pressurization capability for 6,000 ft cabin altitude at maximum service ceiling
   - Capable of flight in known icing conditions
 
 ---
 
-### [In Progress: FAR 23 Avionics Certification report](AERO410.md)
+### [In Progress: FAR 23 Avionics Certification Report](AERO410.md)
 
 Certification scope:
   - Electrical load analysis across operating cases (normal, abnormal, emergency)
