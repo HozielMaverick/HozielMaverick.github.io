@@ -21,7 +21,7 @@ Key requirements:
   - Complies with FAA 14 CFR Part 25
   - Takeoff & landing on a 6,000 ft runway
   - Capable of VFR and IFR flight
-  - Seating for 8 passengers (60 in in pitch and 22 in in width)
+  - Seating for 8 passengers (60 in pitch, 22 in width)
   - Pressurization capability for 6,000 ft cabin altitude at maximum service ceiling
   - Capable of flight in known icing conditions
 
