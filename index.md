@@ -30,11 +30,11 @@ Key requirements:
 ### [In Progress: FAR 23 Avionics Certification report](AERO410.md)
 
 Certification scope:
-  -Electrical load analysis across operating cases (normal, abnormal, emergency)
-  -Essential/non-essential bus and avionics power distribution architecture
-  -Wire gauge selection using current demand, harness length, and allowable voltage drop
-  -Circuit protection sizing (breakers/fuses) aligned with load type and wiring limits
-  -Compliance-style documentation: load tables, wiring schedules, and justification notes
+  - Electrical load analysis across operating cases (normal, abnormal, emergency)
+  - Essential/non-essential bus and avionics power distribution architecture
+  - Wire gauge selection using current demand, harness length, and allowable voltage drop
+  - Circuit protection sizing (breakers/fuses) aligned with load type and wiring limits
+  - Compliance-style documentation: load tables, wiring schedules, and justification notes
 
 ---
 
