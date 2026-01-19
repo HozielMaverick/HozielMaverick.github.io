@@ -38,6 +38,16 @@ Certification scope:
 
 ---
 
+### [In Progess: Designing TFLN-based IM/DD links to increase data-center bandwidth](Capstone.md)
+
+Design focus:
+  - TFLN IM/DD link architecture for bandwidth scaling
+  - MZM transfer function and bias optimization for IM/DD linearity and bandwidth
+  - Modulation, driver, and detection chain development
+  - Link performance evaluation and integration trade studies
+
+---
+
 ### [Fly-By-Wire Aircraft Simulation with Yaw and Roll Stabilization](fbw_game.md)
 Implemented a Fly-By-Wire (FBW) control system to stabilize an unstable B-2–style aircraft for a precision bombing mission.
 
