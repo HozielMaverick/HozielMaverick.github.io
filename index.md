@@ -13,6 +13,31 @@ Electric propulsion and avionics architecture redesigned project.
 
 ---
 
+### [In Progress: Initial Design of an Ultra Premium, Long Range Business Jet](AERO520.md)
+
+Key requirements: 
+  - Minimum cruise speed of Mach 0.85
+  - 8,000 nautical mile range
+  - Complies with FAA 14 CFR Part 25
+  - Takeoff & landing on a 6,000 ft runway
+  - Capable of VFR and IFR flight
+  - Seating for 8 passengers with 60 in in pitch and 22 inc in width
+  - Pressurization capability for 6,000 feet cabin altitude at maximum service ceiling
+  - Capable of flight in known icing conditions
+
+---
+
+### [In Progress: FAR 23 Avionics Certification report](AERO410.md)
+
+Certification scope:
+  -Electrical load analysis across operating cases (normal, abnormal, emergency)
+  -Essential/non-essential bus and avionics power distribution architecture
+  -Wire gauge selection using current demand, harness length, and allowable voltage drop
+  -Circuit protection sizing (breakers/fuses) aligned with load type and wiring limits
+  -Compliance-style documentation: load tables, wiring schedules, and justification notes
+
+---
+
 ### [Fly-By-Wire Aircraft Simulation with Yaw and Roll Stabilization](fbw_game.md)
 Implemented a Fly-By-Wire (FBW) control system to stabilize an unstable B-2–style aircraft for a precision bombing mission.
 
