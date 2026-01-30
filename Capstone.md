@@ -1,6 +1,6 @@
 **Status as of January 30, 2026**
 
-The project has been conducted through a structured experimental workflow to characterize Mach–Zehnder modulation, link performance, and signal integrity under IM/DD transmission conditions.
+The project followed a structured experimental workflow beginning with Mach–Zehnder modulator characterization, then extending to evaluation of the TFLN modulation platform, and culminating in link level assessment of IM/DD performance and signal integrity.
 
 ### Phase 1 — Modulator Characterization
 
