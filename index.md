@@ -50,7 +50,7 @@ Certification scope:
 ### [Fly-By-Wire Aircraft Simulation with Yaw and Roll Stabilization](fbw_game.md)
 Implemented a Fly-By-Wire (FBW) control system to stabilize an unstable B-2–style aircraft for a precision bombing mission.
 
-<img src="/images/fbw_diagram.jpg" width="800">
+<img src="/images/fbw_diagram.jpg" width="1000">
 
 ---
 
