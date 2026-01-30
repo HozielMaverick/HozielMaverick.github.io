@@ -17,6 +17,9 @@ Electric propulsion and avionics architecture redesigned project.
 
 This work investigates high-speed IM/DD optical transmission using TFLN-based modulation integrated on PICs operating in the O-band. A key emphasis is placed on waveguide crossings, where insertion loss (IL), crosstalk, and back-reflections are analyzed to understand their impact on overall link performance and signal integrity at elevated data rates.
 
+<img src="/images/eye.jpg" width="800">
+
+
 ---
 
 ### [In Progress: Initial Design of an Ultra Premium, Long Range Business Jet](AERO520.md)
