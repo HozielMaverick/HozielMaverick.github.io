@@ -13,6 +13,12 @@ Electric propulsion and avionics architecture redesigned project.
 
 ---
 
+### [In Progess: Designing TFLN-based IM/DD links to increase data-center bandwidth](Capstone.md)
+
+This work investigates high-speed IM/DD optical transmission using TFLN-based modulation integrated on PICs operating in the O-band. A key emphasis is placed on waveguide crossings, where insertion loss (IL), crosstalk, and back-reflections are analyzed to understand their impact on overall link performance and signal integrity at elevated data rates.
+
+---
+
 ### [In Progress: Initial Design of an Ultra Premium, Long Range Business Jet](AERO520.md)
 
 Key requirements: 
@@ -35,16 +41,6 @@ Certification scope:
   - Wire gauge selection using current demand, harness length, and allowable voltage drop
   - Circuit protection sizing (breakers/fuses) aligned with load type and wiring limits
   - Compliance-style documentation: load tables, wiring schedules, and justification notes
-
----
-
-### [In Progess: Designing TFLN-based IM/DD links to increase data-center bandwidth](Capstone.md)
-
-Design focus:
-  - TFLN IM/DD link architecture for bandwidth scaling
-  - MZM transfer function and bias optimization for IM/DD linearity and bandwidth
-  - Modulation, driver, and detection chain development
-  - Link performance evaluation and integration trade studies
 
 ---
 
