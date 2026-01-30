@@ -113,26 +113,39 @@ Approach speed range: **80–90 mph** → use 85 mph midpoint [2].
 
 ![Descent Geometry](/images/aero_descent_angle_and_speed.jpg)
 
-Descent angle:
+**Descent Angle**
 
-β = arcsin(50 / 750) = 3.82°
+$$
+\beta = \arcsin\left(\frac{50}{750}\right) = 3.82^\circ
+$$
 
-Horizontal:
+**Horizontal Velocity**
 
-Vx_descent = 85 × cos(3.82°) = 84.81 mph = 73.70 kt
+$$
+V_{x,\text{descent}} = 85 \times \cos(3.82^\circ) = 84.81\ \text{mph} = 73.70\ \text{kt}
+$$
 
-Vertical:
+**Vertical Velocity**
 
-Vy_descent = 85 × sin(3.82°) = 498 ft/min
+$$
+V_{y,\text{descent}} = 85 \times \sin(3.82^\circ) = 498\ \text{ft/min}
+$$
 
-t_descent = 8000 / 498 = 16 min
+**Descent Time**
 
-Range:
+$$
+t_{\text{descent}} = \frac{8000}{498} = 16\ \text{min}
+$$
 
-R_descent = 73.70 × 0.2666 = 19.65 NM
+**Descent Range**
 
-Verification:  
-Interpolated AC 700-028 value = 19.22 NM
+$$
+R_{\text{descent}} = 73.70 \times 0.2666 = 19.65\ \text{NM}
+$$
+
+**Verification**
+
+Interpolated value = 19.22 NM
 
 ![Descent Verification](/images/aero_descent_verif.jpg)
 
