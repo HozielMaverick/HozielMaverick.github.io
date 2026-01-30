@@ -140,11 +140,23 @@ Interpolated AC 700-028 value = 19.22 NM
 
 ### 6. Total Mission Performance
 
-R_total = R_climb + R_cruise + R_descent  
-R_total = 15.1 + 43.5 + 19.5 = **78.1 NM**
+$$
+R_{\text{total}} = R_{\text{climb}} + R_{\text{cruise}} + R_{\text{descent}}
+$$
 
-t_total = t_climb + t_cruise + t_descent  
-t_total = 11 + 22 + 16 = **49 min**
+$$
+R_{\text{total}} = 15.1 + 43.5 + 19.5 = 78.1\ \text{NM}
+$$
+
+
+$$
+t_{\text{total}} = t_{\text{climb}} + t_{\text{cruise}} + t_{\text{descent}}
+$$
+
+$$
+t_{\text{total}} = 11 + 22 + 16 = 49\ \text{min}
+$$
+
 
 These results maintain a **10 kWh energy reserve**, giving a conservative estimate of electric mission performance.
 
@@ -280,9 +292,6 @@ $$
 V_{\text{out}} = V_{\text{in}} \times \left( \frac{R_{\text{bottom}}}{R_{\text{top}} + R_{\text{bottom}}} \right)
 $$
 
-$$
-V_{\text{out}} = 5\ \text{V} \times \left( \frac{R_{\text{bottom}}}{R_{\text{top}} + R_{\text{bottom}}} \right)
-$$
 
 This signal is read by the inverter’s analog-input channel and mapped to torque or power demand.
 
