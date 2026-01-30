@@ -10,7 +10,7 @@ The test setup plan was as shown below:
 
 ![Test 1 MZM](/images/tsp1.jpg)
 
-**The Device Under Testing (DUT) here is the MZM.**
+The Device Under Testing (DUT) here is the MZM
 
 The normalized Transfer Function (TF) is shown below
 
