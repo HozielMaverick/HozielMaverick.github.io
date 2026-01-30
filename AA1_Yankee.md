@@ -145,7 +145,9 @@ $$
 
 **Verification**
 
-Interpolated value = 19.22 NM
+$$
+R_{\text{interpolated}} = 19.22\ \text{NM}
+$$
 
 ![Descent Verification](/images/aero_descent_verif.jpg)
 
