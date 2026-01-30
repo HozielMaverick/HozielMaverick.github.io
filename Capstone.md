@@ -47,7 +47,7 @@ $$
 
 ### Phase 2 — BER and SNR Analysis
 
-A Bit Pattern Generator (BPG) was connected to a Digital Communications Analyzer (DCA) to evaluate Bit Error Rate (BER) across multiple operating frequencies. The resulting BER measurements were used to estimate signal-to-noise ratio (SNR) and assess performance limitations at increasing data rates.
+A Bit Pattern Generator (BPG) was used to evaluate Bit Error Rate (BER) across multiple operating frequencies. The resulting BER measurements were used to estimate signal-to-noise ratio (SNR) and assess performance limitations at increasing data rates.
 
 ### Phase 3 — Eye Diagram and Signal Integrity Evaluation
 
