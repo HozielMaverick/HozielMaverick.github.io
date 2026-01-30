@@ -276,7 +276,13 @@ To preserve the pilot’s familiar throttle-push control, the mechanical throttl
 
 This produces an analog voltage:
 
-V_out = 5 V × (R_bottom / (R_top + R_bottom))
+$$
+V_{\text{out}} = V_{\text{in}} \times \left( \frac{R_{\text{bottom}}}{R_{\text{top}} + R_{\text{bottom}}} \right)
+$$
+
+$$
+V_{\text{out}} = 5\ \text{V} \times \left( \frac{R_{\text{bottom}}}{R_{\text{top}} + R_{\text{bottom}}} \right)
+$$
 
 This signal is read by the inverter’s analog-input channel and mapped to torque or power demand.
 
