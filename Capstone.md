@@ -16,10 +16,21 @@ The normalized Transfer Function (TF) is shown below
 
 ![MZM TF](/images/mzmr1.jpg)
 
-IL(dB)=Pref(dBm)-Pmax(dBm)
-=9.63-2.39=7.24dB
+IL calculations:
+$$
+\begin{aligned}
+IL(\text{dB}) &= P_{\text{ref}}(\text{dBm}) - P_{\text{max}}(\text{dBm}) \\
+              &= 9.63 - 2.39 \\
+              &= 7.24\ \text{dB}
+\end{aligned}
+$$
 
-Vπ=|Vpmax-Vpmin|=|2-7.2|=5.2V
+Half wave voltage calculations:
+$$
+V_{\pi} = \left| V_{p,\text{max}} - V_{p,\text{min}} \right|
+= \left| 2 - 7.2 \right|
+= 5.2\ \text{V}
+$$
 
 
 Phase 2 — BER and SNR Analysis
