@@ -36,7 +36,9 @@ Although this motor exceeds the power of the original Lycoming engine, excess th
 ### 2. Battery Mass Allowance
 The mechanical team determined that replacing the piston engine and associated systems resulted in a new empty weight of **1150 lb**, not including batteries. With a maximum takeoff weight (MTOW) of **1500 lb**, and reserving 350 lb for passengers and baggage [2], the allowable battery mass is:
 
-m_battery = 1500 lb − 1150 lb = 350 lb ≈ 160 kg
+$$
+E_{\text{pack}} = 160 \times 300 = 48\ \text{kWh}
+$$
 
 MGM Compro advertises up to **400 Wh/kg** energy density [4], but a conservative **300 Wh/kg** was used to account for non-cell mass. This yields a pack energy of:
 
@@ -44,66 +46,103 @@ E_pack = 160 kg × 300 Wh/kg = 48 kWh
 
 Only **80% usable energy** is available in aviation applications for safety, giving:
 
-E_usable = 0.8 × 48 = 38.4 kWh
+$$
+E_{\text{usable}} = 0.8 \times 48 = 38.4\ \text{kWh}
+$$
 
 ---
 
 ### 3. Performance Modeling
 
 #### **3.1 Takeoff + Climb Energy**
-Takeoff and climb energy were computed from kinetic and potential energy:
+**Climb Energy from Potential Energy**
 
-Potential energy:
+$$
+E_{\text{climb}} = \frac{m g h}{\eta \times 3.6 \times 10^6}
+$$
 
-E_climb = (m g h) / (η × 3.6×10^6)
+$$
+m = 1500\ \text{lb} = 681\ \text{kg}, \quad h = 8000\ \text{ft}, \quad \eta = 0.76
+$$
 
-Using:  
-m = 1500 lb = 681 kg  
-h = 8000 ft  
-η = 0.76  
+$$
+E_{\text{climb}} = 5.95\ \text{kWh}
+$$
 
-E_climb = 5.95 kWh
+**Takeoff Energy**
 
-Takeoff energy:
+$$
+E_{\text{TO}} = \frac{1}{2} m V_{\text{TO}}^2 = 0.09\ \text{kWh}
+$$
 
-E_to = (1/2) m V_to² = 0.09 kWh
+**Total Takeoff and Climb Energy**
 
-E_climb+to = 6.04 kWh
+$$
+E_{\text{climb+TO}} = 6.04\ \text{kWh}
+$$
 
 ---
 
 #### **3.2 Reserve Energy**
-E_reserve = 60 kW × (10/60) = 10 kWh
+
+$$
+E_{\text{reserve}} = 60 \times \left(\frac{10}{60}\right) = 10\ \text{kWh}
+$$
 
 ---
 
 #### **3.3 Cruise Energy + Duration**
-E_cruise = E_usable − E_climb+to − E_reserve  
-E_cruise = 38.4 − 6.04 − 10 = 22.36 kWh
+**Cruise Energy**
 
-t_cruise = 22.36 / 60 = 0.373 h = 22 min
+$$
+E_{\text{cruise}} = E_{\text{usable}} - E_{\text{climb+TO}} - E_{\text{reserve}}
+$$
 
-R_cruise = 117 kt × 0.373 = 43.5 NM
+$$
+E_{\text{cruise}} = 38.4 - 6.04 - 10 = 22.36\ \text{kWh}
+$$
+
+**Cruise Time**
+
+$$
+t_{\text{cruise}} = \frac{22.36}{60} = 0.373\ \text{h} = 22\ \text{min}
+$$
+
+**Cruise Range**
+
+$$
+R_{\text{cruise}} = 117 \times 0.373 = 43.5\ \text{NM}
+$$
 
 ---
 
 ### 4. Climb Range and Duration
 
-t_climb = 8000 / 710 = 11 min
+**Climb Time**
+
+$$
+t_{\text{climb}} = \frac{8000}{710} = 11\ \text{min}
+$$
 
 ![Climb Geometry](/images/aero_climb_angle_and_speed.jpg)
 
-Angle:
+**Climb Angle**
 
-α = arcsin(3.607 / 42.47) = 4.86°
+$$
+\alpha = \arcsin\left(\frac{3.607}{42.47}\right) = 4.86^\circ
+$$
 
-Horizontal component:
+**Horizontal Velocity**
 
-Vx_climb = 95 × cos(4.86°) = 94.66 mph = 82.26 kt
+$$
+V_{x,\text{climb}} = 95 \times \cos(4.86^\circ) = 94.66\ \text{mph} = 82.26\ \text{kt}
+$$
 
-Range:
+**Climb Range**
 
-R_climb = 82.26 × 0.1833 = 15.1 NM
+$$
+R_{\text{climb}} = 82.26 \times 0.1833 = 15.1\ \text{NM}
+$$
 
 ---
 
