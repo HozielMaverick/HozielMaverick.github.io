@@ -6,7 +6,20 @@ Phase 1 — Modulator Characterization
 
 The Mach–Zehnder modulator (MZM) was characterized to establish key device parameters including insertion loss (IL) and half-wave voltage (Vπ). These measurements provided a baseline understanding of modulation efficiency and biasing requirements for high-speed operation.
 
-Test setup plan
+The test setup plan was as shown below:
+
+![Test 1 MZM](/images/tsp1.jpg)
+
+The Device Under Testing (DUT) here is the MZM.
+
+The normalized Transfer Function (TF) is shown below
+
+![MZM TF](/images/mzmr1.jpg)
+
+IL(dB)=Pref(dBm)-Pmax(dBm)
+=9.63-2.39=7.24dB
+
+Vπ=|Vpmax-Vpmin|=|2-7.2|=5.2V
 
 
 Phase 2 — BER and SNR Analysis
