@@ -16,7 +16,7 @@ The normalized Transfer Function (TF) is shown below
 
 ![MZM TF](/images/mzmr1.jpg)
 
-### Insertion Loss Calculation
+## Insertion Loss Calculation
 
 $$
 IL(\text{dB}) = P_{\text{ref}}(\text{dBm}) - P_{\text{max}}(\text{dBm})
@@ -30,7 +30,7 @@ $$
 = 7.24\ \text{dB}
 $$
 
-### Half-Wave Voltage Calculation
+## Half-Wave Voltage Calculation
 
 $$
 V_{\pi} = \left| V_{p,\text{max}} - V_{p,\text{min}} \right|
