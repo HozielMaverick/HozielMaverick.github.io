@@ -121,7 +121,7 @@ $$
 **Climb Time**
 
 $$
-t_{\text{climb}} = \frac{8000}{710} = 11\ \text{min}
+t_{\text{climb}} = \frac{8000}{710[1]} = 11\ \text{min}
 $$
 
 ![Climb Geometry](/images/aero_climb_angle_and_speed.jpg)
