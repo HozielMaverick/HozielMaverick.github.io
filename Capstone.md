@@ -8,12 +8,12 @@ The Mach–Zehnder modulator (MZM) was characterized to establish key device par
 
 The test setup plan was as shown below:
 
-![Test 1 MZM](/images/yooo.jpg)
+<img src="/images/yooo.jpg" width="400>
 
 
 The normalized Transfer Function (TF) is shown below
 
-![MZM TF](/images/mzmr1.jpg)
+<img src="/images/mzmr1.jpg" width="400>
 
 **Insertion Loss Calculation**
 
@@ -89,34 +89,34 @@ A Bit Pattern Generator (BPG), synchronized to an external clock, was connected 
 
 The test set up is shown below
 
-![BPG_SU](/images/BPGGG.jpg)
+<img src="/images/BPGGG.jpg" width="400>
 
 The resulting electrical eye diagrams for data rates of 20, 32, 50, 60, and 70 Gbps are shown below. Since On-Off Keying (OOK) is employed, the baud rate is equal to the bit rate. In contrast, for PAM-4 modulation, the bit rate would be twice the baud rate.
 
 **20Gbps**
 **SNR 17.37**
 
-![20G](/images/20G.jpg)
+<img src="/images/20G.jpg" width="400>
 
 **32Gbps**
 **SNR 16.40**
 
-![32G](/images/32G.jpg)
+<img src="/images/32G.jpg" width="400>
 
 **50Gbps**
 **SNR 13.86**
 
-![50G](/images/50G.jpg)
+<img src="/images/50G.jpg" width="400>
 
 **60Gbps**
 **SNR 10.13**
 
-![60G](/images/60G.jpg)
+<img src="/images/60G.jpg" width="400>
 
 **70Gbps**
 **SNR 7.23**
 
-![70G](/images/70G.jpg)
+<img src="/images/70G.jpg" width="400>
 
 
 The SNR decreases with increasing data rate as higher bandwidth is required to preserve fast signal transitions, increasing susceptibility to noise and intersymbol interference (ISI). A significant SNR degradation occurs beyond 40 Gbps due to the 40 GHz frequency response limit of the modulator.
