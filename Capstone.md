@@ -8,9 +8,8 @@ The Mach–Zehnder modulator (MZM) was characterized to establish key device par
 
 The test setup plan was as shown below:
 
-![Test 1 MZM](/images/tsp1.jpg)
+![Test 1 MZM](/images/picture1.jpg)
 
-The Device Under Testing (DUT) here is the MZM
 
 The normalized Transfer Function (TF) is shown below
 
@@ -84,9 +83,44 @@ $$
 
 
 
-### Phase 2 — BER and SNR Analysis
+### Phase 2 — BPG Electrical Eye Diagram
 
-A Bit Pattern Generator (BPG) was used to evaluate Bit Error Rate (BER) across multiple operating frequencies. The resulting BER measurements were used to estimate signal-to-noise ratio (SNR) and assess performance limitations at increasing data rates.
+A Bit Pattern Generator (BPG), synchronized to an external clock, was connected to a Bit Error Analyzer (BEA), which interfaced with a Digital Communication Analyzer (DCA) to capture electrical eye diagrams and evaluate the signal-to-noise ratio (SNR) at data rates up to 70 Gbps.
+
+The test set up is shown below
+
+![BPG_SU](/images/BPGGG.jpg)
+
+The resulting electrical eye diagrams for data rates of 20, 32, 50, 60, and 70 Gbps are shown below. Since On-Off Keying (OOK) is employed, the baud rate is equal to the bit rate. In contrast, for PAM-4 modulation, the bit rate would be twice the baud rate.
+
+**20Gbps**
+**SNR 17.37**
+
+![20G](/images/20G.jpg)
+
+**32Gbps**
+**SNR 16.40**
+
+![32G](/images/32G.jpg)
+
+**50Gbps**
+**SNR 13.86**
+
+![50G](/images/50G.jpg)
+
+**60Gbps**
+**SNR 10.13**
+
+![60G](/images/60G.jpg)
+
+**70Gbps**
+**SNR 7.23**
+
+![70G](/images/70G.jpg)
+
+
+The SNR decreases with increasing data rate as higher bandwidth is required to preserve fast signal transitions, increasing susceptibility to noise and intersymbol interference (ISI). A significant SNR degradation occurs beyond 40 Gbps due to the 40 GHz frequency response limit of the modulator.
+
 
 ### Phase 3 — Eye Diagram and Signal Integrity Evaluation
 
