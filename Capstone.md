@@ -44,6 +44,45 @@ $$
 = 5.2\ \text{V}
 $$
 
+**Extinction Ratio Calculation**
+
+$$
+P_1 = 2.39\ \text{dBm}
+$$
+
+$$
+= 10^{2.39/10}
+$$
+
+$$
+= 1.733\ \text{mW}
+$$
+
+$$
+P_0 = -9.83\ \text{dBm}
+$$
+
+$$
+= 10^{-9.83/10}
+$$
+
+$$
+= 0.104\ \text{mW}
+$$
+
+$$
+\mathrm{ER(dB)} = 10 \log_{10}\!\left(\frac{P_1}{P_0}\right)
+$$
+
+$$
+= 10 \log_{10}\!\left(\frac{1.733}{0.104}\right)
+$$
+
+$$
+= 12.22\ \text{dB}
+$$
+
+
 
 ### Phase 2 — BER and SNR Analysis
 
