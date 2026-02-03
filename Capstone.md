@@ -71,11 +71,11 @@ $$
 $$
 
 $$
-\mathrm{ER(dB)} = 10 \log_{10}\!\left(\frac{P_1}{P_0}\right)
+\mathrm{ER(dB)} = 10 \log_{10}\left(\frac{P_1}{P_0}\right)
 $$
 
 $$
-= 10 \log_{10}\!\left(\frac{1.733}{0.104}\right)
+= 10 \log_{10}\left(\frac{1.733}{0.104}\right)
 $$
 
 $$
