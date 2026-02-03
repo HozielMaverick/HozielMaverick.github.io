@@ -8,7 +8,7 @@ The Mach–Zehnder modulator (MZM) was characterized to establish key device par
 
 The test setup plan was as shown below:
 
-![Test 1 MZM](/images/picture1.jpg)
+![Test 1 MZM](/images/Picture1.jpg)
 
 
 The normalized Transfer Function (TF) is shown below
