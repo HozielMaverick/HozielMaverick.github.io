@@ -249,5 +249,5 @@ As the wavelength continues to increase into the C-band, material dispersion gro
 
 ### Next Phase - Upcoming work: TFLN Waveguide Crossing Chip & Full IM/DD TX System
 
-The MZM was integrated into the transmission setup with a laser source, bias voltage control, BPG input, and DCA receiver. Eye diagrams were captured after transmission over 2 km and 5 km fiber spans to evaluate jitter accumulation and signal degradation with distance.
+he next phase of the project is to experimentally characterize TFLN modulators and waveguide crossings on chip in order to evaluate their performance, benefits, and limitations. These measurements will be directly compared with results obtained from Lumerical simulations to assess model accuracy and identify discrepancies. The final stage of the project will consist of implementing a complete IM/DD system incorporating TFLN modulation and waveguide crossings.
 
