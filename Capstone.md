@@ -4,11 +4,11 @@ The project followed a structured experimental workflow beginning with Mach–Ze
 
 ### Phase 1 — Modulator Characterization
 
-First, let us understand how a Mach–Zehnder modulator (MZM) operates. An MZM works by splitting an incoming optical signal into two interferometer arms. A relative phase shift is then introduced between the two paths. This phase shift can either be applied entirely to one arm as \( \phi \), or symmetrically as \( \pm \phi/2 \) across both arms. A visual illustration of the Mach–Zehnder interferometer used in this setup is shown below.
+First, let us understand how a Mach–Zehnder modulator (MZM) operates. An MZM works by splitting an incoming optical signal into two interferometer arms. A relative phase shift is then introduced between the two paths. This phase shift can either be applied entirely to one arm as φ, or symmetrically as ±φ/2 across both arms. A visual illustration of the Mach–Zehnder interferometer used in this setup is shown below.
 
 <img src="/images/mzmI.jpg" width="400">
 
-In our experiment, the MZM splits the optical signal and applies a \( +\phi/2 \) phase shift to one arm and a \( -\phi/2 \) phase shift to the other. By controlling the relative phase between the two optical waves, constructive or destructive interference occurs when the signals are recombined. This interference determines the resulting optical intensity, which can be detected by a photodiode and interpreted as an amplitude-modulated signal.
+In our experiment, the MZM splits the optical signal and applies a +φ/2 phase shift to one arm and a -φ/2 phase shift to the other. By controlling the relative phase between the two optical waves, constructive or destructive interference occurs when the signals are recombined. This interference determines the resulting optical intensity, which can be detected by a photodiode and interpreted as an amplitude-modulated signal.
 
 The phase shift is induced through the **Pockels electro-optic effect**. When a voltage is applied across the electro-optic material, an electric field is generated that causes a distortion of the crystal lattice. This distortion alters the polarization response of the material, resulting in a change in the refractive index. The change in refractive index directly modifies the optical phase accumulated along the modulator arms.
 
