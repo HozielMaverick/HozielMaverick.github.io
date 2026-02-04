@@ -6,7 +6,7 @@ The project followed a structured experimental workflow beginning with Mach–Ze
 
 First, let us understand how a Mach–Zehnder modulator (MZM) operates. An MZM works by splitting an incoming optical signal into two interferometer arms. A relative phase shift is then introduced between the two paths. This phase shift can either be applied entirely to one arm as φ, or symmetrically as ±φ/2 across both arms. A visual illustration of the Mach–Zehnder interferometer used in this setup is shown below.
 
-<img src="/images/mzmI.jpg" width="400">
+<img src="/images/mzmI.jpg" width="800">
 
 In our experiment, the MZM splits the optical signal and applies a +φ/2 phase shift to one arm and a -φ/2 phase shift to the other. By controlling the relative phase between the two optical waves, constructive or destructive interference occurs when the signals are recombined. This interference determines the resulting optical intensity, which can be detected by a photodiode and interpreted as an amplitude-modulated signal.
 
@@ -247,10 +247,7 @@ As the wavelength continues to increase into the C-band, material dispersion gro
 <img src="/images/disp.jpg" width="600">
 
 
-### Next Phase - Upcoming work 
+### Next Phase - Upcoming work: TFLN Waveguide Crossing Chip & Full IM/DD TX System
 
 The MZM was integrated into the transmission setup with a laser source, bias voltage control, BPG input, and DCA receiver. Eye diagrams were captured after transmission over 2 km and 5 km fiber spans to evaluate jitter accumulation and signal degradation with distance.
 
-### Next Phase — TFLN PIC Evaluation (In progress)
-
-The next step of this project is to characterize TFLN waveguide crossing chips operating in the O-band, evaluate their performance and limitations, and subsequently design and implement a complete IM/DD TFLN O-band transmission system for high speed transmission.
