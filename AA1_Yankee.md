@@ -42,8 +42,6 @@ $$
 
 MGM Compro advertises up to **400 Wh/kg** energy density [4], but a conservative **300 Wh/kg** was used to account for non-cell mass. This yields a pack energy of:
 
-E_pack = 160 kg × 300 Wh/kg = 48 kWh
-
 Only **80% usable energy** is available in aviation applications for safety, giving:
 
 $$
