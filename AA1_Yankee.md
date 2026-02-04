@@ -34,7 +34,7 @@ Although this motor exceeds the power of the original Lycoming engine, excess th
 ---
 
 ### 2. Battery Mass Allowance
-The mechanical team determined that replacing the piston engine and associated systems resulted in a new empty weight of **798 lb**, not including batteries. With a maximum takeoff weight (MTOW) of **1500 lb**, and reserving 350 lb for passengers and baggage [2], the allowable battery mass is 160kg.
+The mechanical team determined that replacing the piston engine and associated systems resulted in a new empty weight of **798 lb**, not including batteries. With a maximum takeoff weight (MTOW) of **1500 lb**, and reserving 350 lb for passengers and baggage [2], the allowable battery mass is **160kg**.
 
 
 MGM Compro advertises up to **400 Wh/kg** energy density [4], but a conservative **300 Wh/kg** was used to account for non-cell mass. This yields a pack energy of:
