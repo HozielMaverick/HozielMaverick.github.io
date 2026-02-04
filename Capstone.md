@@ -249,5 +249,5 @@ As the wavelength continues to increase into the C-band, material dispersion gro
 
 ### Next Phase - Upcoming work: TFLN Waveguide Crossing Chip & Full IM/DD TX System
 
-he next phase of the project is to experimentally characterize TFLN modulators and waveguide crossings on chip in order to evaluate their performance, benefits, and limitations. These measurements will be directly compared with results obtained from Lumerical simulations to assess model accuracy and identify discrepancies. The final stage of the project will consist of implementing a complete IM/DD system incorporating TFLN modulation and waveguide crossings.
+The next phase of the project is to experimentally characterize TFLN modulators and waveguide crossings on chips in order to evaluate their performance, benefits, and limitations. These measurements will be directly compared with results obtained from Lumerical simulations to assess model accuracy and identify discrepancies. The final stage of the project will consist of implementing a complete IM/DD system incorporating TFLN modulation and waveguide crossings.
 
