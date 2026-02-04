@@ -31,7 +31,7 @@ The Mach–Zehnder modulator (MZM) was characterized to establish key device par
 
 The test setup plan was as shown below:
 
-<img src="/images/yooo.jpg" width="400">
+<img src="/images/yooo.jpg" width="600">
 
 
 The normalized Transfer Function (TF) is shown below
@@ -151,7 +151,7 @@ For this experiment, an IM/DD MZM setup was evaluated at three data rates over f
 
 The test setup is shown below
 
-<img src="/images/imddmzm.jpg" width="600">
+<img src="/images/imddmzm.jpg" width="800">
 
 The resulting optical eye diagrams for the 0km fiber optic capbles are shown below for 
 10, 21, 28 Gbps respectively
