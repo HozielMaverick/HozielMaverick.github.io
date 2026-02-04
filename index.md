@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 
 <script>
@@ -11,7 +10,6 @@ layout: default
   };
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-
 
 # Maverick Hoziel - Engineering Portfolio
 
