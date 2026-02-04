@@ -15,13 +15,13 @@ The phase shift is induced through the **Pockels electro-optic effect**. When a 
 The optical phase accumulated over a waveguide of length \( L \) is given by
 
 $$
-\phi = \frac{2\pi n L}{\lambda}
+\varphi = \frac{2\pi n L}{\lambda}
 $$
 
 A change in the refractive index therefore produces a corresponding phase shift
 
 $$
-\Delta \phi = \frac{2\pi \Delta n L}{\lambda}
+\Delta \varphi = \frac{2\pi \Delta n L}{\lambda}
 $$
 
 This relationship shows that electrically induced changes in the refractive index lead to controlled phase modulation, enabling the MZM to convert an electrical signal into an intensity-modulated optical signal.
