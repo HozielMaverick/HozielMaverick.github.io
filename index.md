@@ -1,16 +1,3 @@
----
----
-
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$','$$'], ['\\[','\\]']]
-    }
-  };
-</script>
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-
 # Maverick Hoziel - Engineering Portfolio
 
 Welcome to my Electrical/Aerospace Engineering Portfolio.
