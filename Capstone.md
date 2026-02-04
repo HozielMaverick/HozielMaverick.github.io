@@ -156,7 +156,7 @@ The test setup is shown below
 The resulting optical eye diagrams for the 0km fiber optic capbles are shown below for 
 10, 21, 28 Gbps respectively
 
-<u><b>0km</b></u>
+<ins><b>0km</b></ins>
 
 **10Gbps**
 
@@ -173,7 +173,7 @@ The resulting optical eye diagrams for the 0km fiber optic capbles are shown bel
 
 Although the eye diagrams remain reasonably open, they exhibit noticeably degraded quality compared to the previously measured electrical eye diagrams. Increased timing jitter is observed, resulting in thicker eye traces and reduced clarity.
 
-<u><b>5km</b></u>
+<ins><b>5km</b></ins>
 
 **10Gbps**
 
