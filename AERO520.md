@@ -10,3 +10,5 @@ The first phase of the project concentrated on preliminary weight sizing. Key ai
 
 
 [**Open Report 1**](AERO520_REPORT1.pdf)
+
+<img src="/images/ro.jpg" width="800">
