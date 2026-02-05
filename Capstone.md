@@ -262,7 +262,7 @@ $$
 \Delta \varphi = \frac{2\pi}{\lambda} \Delta nL
 $$
 
-where $\lambda$ is the optical wavelength, $L$ is the interaction length, and $\Delta n$ is the refractive index change caused by the applied electric field. The refractive index change is proportional to the electro-optic coefficient $r_\33$ and the RF electric field:
+where $\lambda$ is the optical wavelength, $L$ is the interaction length, and $\Delta n$ is the refractive index change caused by the applied electric field. The refractive index change is proportional to the electro-optic coefficient $r_{33}$ and the RF electric field $E_{RF}$
 
 $$
 \Delta n \propto r_{33} \cdot E_{RF}
