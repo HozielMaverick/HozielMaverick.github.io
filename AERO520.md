@@ -4,10 +4,9 @@ The RFP outlining the design objectives and constraints is provided below.
 
 [**Click here to see RFP**](RFP.pdf)
 
-The first phase of the project concentrated on preliminary weight sizing. Key aircraft weight parameters were estimated and iteratively refined to ensure alignment with performance requirements while maintaining compliance with the RFP specifications. This initial sizing process established the baseline configuration and provided the foundation for subsequent aerodynamic, performance, and systems analyses. it can be found by clicking on the link below:
+### Report 1 - Initial Weight Sizing
 
-**Report 1 - Initial weight sizing**
-
+The first phase of the project concentrated on preliminary weight sizing. Key aircraft weight parameters were estimated and iteratively refined to ensure alignment with performance requirements while maintaining compliance with the RFP specifications. This initial sizing process established the baseline configuration and provided the foundation for subsequent aerodynamic, performance, and systems analyses. It can be found by clicking on the link below.
 
 [**Open Report 1**](AERO520_REPORT1.pdf)
 
