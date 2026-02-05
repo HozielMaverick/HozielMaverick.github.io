@@ -1,7 +1,7 @@
 # Maverick Hoziel - Engineering Portfolio
 
 Welcome to my Electrical/Aerospace Engineering Portfolio.
-This site contains my techincal projects, simulations, and system designs.
+This site contains my technical projects, simulations, and system designs.
 
 ## Projects
 
