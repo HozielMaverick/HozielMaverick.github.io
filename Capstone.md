@@ -332,7 +332,7 @@ The results show reflection levels around approximately -66 dB at the target wav
 
 To better understand the optical behavior within the TFLN waveguide crossing, electric field intensity distributions were simulated to visualize how the optical mode propagates and interacts with the device geometry. These heat maps provide insight into mode confinement and how structural features influence optical performance. The left image shows the electric field intensity at the waveguide cross-section, while the right image shows the field distribution at the tapered end of the structure.
 
-<img src="/images/EIF.jpg" width="800">
+<img src="/images/EIF.jpg" width="1000">
 
 The cross-section field distribution (left) shows a relatively extended optical mode profile, where the optical energy spreads laterally within the waveguide. This represents the baseline propagation condition before strong geometric shaping occurs. A wider mode profile increases interaction with surrounding structures, which can contribute to scattering or coupling effects if not properly managed.
 
