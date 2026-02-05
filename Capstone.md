@@ -250,7 +250,7 @@ As the wavelength continues to increase into the C-band, material dispersion gro
 
 In this section, we used Lumerical simulations to evaluate the performance of TFLN waveguide crossings in the O-band under three different temperature conditions. The analysis focused on insertion loss (IL), crosstalk (Xtalk), and reflections. Additionally, electric field intensity heat maps were examined at both the waveguide crossing region and the tapered sections to better understand field distribution and propagation behavior.
 
-## Why TFLN and Waveguide Crossings are Important
+**Why TFLN and Waveguide Crossings are Important**
 
 First, it is important to understand why thin-film lithium niobate (TFLN) and waveguide crossings are attractive technologies for modern photonic integrated circuits (PICs). TFLN is a thin-film implementation of lithium niobate, as opposed to traditional bulk lithium niobate used in conventional Mach-Zehnder modulators (MZMs). By reducing the material thickness and increasing optical confinement, TFLN enables more compact and densely integrated photonic chips while improving electro-optic performance.
 
