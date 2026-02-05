@@ -294,7 +294,7 @@ As photonic devices become smaller and more densely integrated using TFLN techno
 
 For reference, the figure below shows a TFLN structure.
 
-<img src="/images/TFLNN.jpg" width="600">
+<img src="/images/TFLNN.jpg" width="800">
 
 Waveguide crossings enable dense optical routing by allowing multiple light paths to intersect within a photonic integrated circuit, similar to vias or wire crossings in electronic integrated circuits. Rather than directly increasing transmission speed or bandwidth, waveguide crossings improve scalability by allowing more signals and components to fit on the same chip without significantly degrading performance. In other words, they make it possible to build a more densely integrated photonic chip while keeping losses and signal distortion low enough for the system to operate efficiently.
 
@@ -302,14 +302,14 @@ However, crossings introduce potential performance tradeoffs such as insertion l
 
 The figure below provides a clear visual representation of a waveguide crossing. Stream A is from port 1 to port 3 and stream B is from port 2 to port 4.
 
-<img src="/images/WG.jpg" width="600">
+<img src="/images/WG.jpg" width="400">
 
 
 We then used Lumerical to simulate IL, Xtalk and reflection through the O-Band at 27, 55, and 86 degrees celcius.
 
 This figure shows the simulated insertion loss (IL) of a TFLN waveguide crossing across the O-band wavelength range under different thermal conditions (27°C, 55°C, and 85°C). Insertion loss represents the optical power reduction between the input and output ports, primarily caused by scattering, reflections, and crosstalk introduced by the crossing geometry.
 
-<img src="/images/ILLL.jpg" width="600">
+<img src="/images/ILLL.jpg" width="800">
 
 
 Results show that insertion loss remains below approximately 0.14 dB across the wavelength range, indicating an efficient crossing design with minimal power penalty. The loss becomes slightly more negative as wavelength increases, which can be attributed to the expansion of the optical mode field diameter at longer wavelengths. As the mode expands, the optical beam interacts more strongly with the crossing region, leading to increased scattering and therefore higher loss.
@@ -318,7 +318,7 @@ The nearly overlapping curves for different temperatures demonstrate that the cr
 
 Xtalk represents optical power that unintentionally couples into the wrong output path when light passes through a waveguide crossing. Ideally, all optical power should remain in the intended transmission path; however, due to mode overlap and scattering at the crossing region, a small portion of the optical field can leak into perpendicular waveguides.
 
-<img src="/images/Xtalk.jpg" width="600">
+<img src="/images/Xtalk.jpg" width="800">
 
 The results show that crosstalk remains well below -40 dB across the entire wavelength range, reaching approximately -57 dB at the target wavelength. This indicates very low unwanted coupling and demonstrates that the crossing design maintains strong signal isolation.
 
@@ -326,13 +326,13 @@ A slight increase in crosstalk is observed at longer wavelengths. As wavelength 
 
 Reflection represents the portion of the optical signal that is reflected backward toward the input port when light encounters discontinuities within the waveguide crossing. In practical terms, this corresponds to optical power that travels back toward the transmitter or receiver instead of continuing forward. Excessive reflection can interfere with subsequent data symbols by introducing delayed optical energy that overlaps with future time slots, potentially degrading signal integrity.
 
-<img src="/images/ref.jpg" width="600">
+<img src="/images/ref.jpg" width="800">
 
 The results show reflection levels around approximately -66 dB at the target wavelength, indicating very low back-reflected power and good impedance matching within the structure. An oscillatory behavior is observed across the wavelength range, which is attributed to wavelength-dependent phase changes leading to alternating constructive and destructive interference within the crossing geometry. The nearly identical curves across different temperatures suggest that reflection performance is relatively insensitive to thermal variations.
 
 To better understand the optical behavior within the TFLN waveguide crossing, electric field intensity distributions were simulated to visualize how the optical mode propagates and interacts with the device geometry. These heat maps provide insight into mode confinement and how structural features influence optical performance. The left image shows the electric field intensity at the waveguide cross-section, while the right image shows the field distribution at the tapered end of the structure.
 
-<img src="/images/EIF.jpg" width="600">
+<img src="/images/EIF.jpg" width="800">
 
 The cross-section field distribution (left) shows a relatively extended optical mode profile, where the optical energy spreads laterally within the waveguide. This represents the baseline propagation condition before strong geometric shaping occurs. A wider mode profile increases interaction with surrounding structures, which can contribute to scattering or coupling effects if not properly managed.
 
