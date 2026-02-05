@@ -5,13 +5,6 @@ This site contains my techincal projects, simulations, and system designs.
 
 ## Projects
 
-### [AA-1 Yankee Electrical Propulsion Conversion](AA1_Yankee.md)
-Electric propulsion and avionics architecture redesigned project.
-
-<img src="/images/ESD2.jpg" width="500">
-
----
-
 ### [In Progess: Designing TFLN-based IM/DD links to increase data-center bandwidth](Capstone.md)
 
 This work investigates high-speed IM/DD optical transmission using TFLN-based modulation integrated on PICs operating in the O-band. A key emphasis is placed on waveguide crossings, where insertion loss (IL), crosstalk, and back-reflections are analyzed to understand their impact on overall link performance and signal integrity at elevated data rates.
@@ -20,6 +13,15 @@ This work investigates high-speed IM/DD optical transmission using TFLN-based mo
 
 
 ---
+
+### [AA-1 Yankee Electrical Propulsion Conversion](AA1_Yankee.md)
+Electric propulsion and avionics architecture redesigned project.
+
+<img src="/images/ESD2.jpg" width="500">
+
+---
+
+
 
 ### [In Progress: Initial Design of an Ultra Premium, Long Range Business Jet](AERO520.md)
 
