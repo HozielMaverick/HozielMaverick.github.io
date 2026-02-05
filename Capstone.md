@@ -246,6 +246,99 @@ As the wavelength continues to increase into the C-band, material dispersion gro
 
 <img src="/images/disp.jpg" width="600">
 
+### Phase 4 - TFLN Waveguide Crossing Simulations
+
+In this section, we used Lumerical simulations to evaluate the performance of TFLN waveguide crossings in the O-band under three different temperature conditions. The analysis focused on insertion loss (IL), crosstalk (Xtalk), and reflections. Additionally, electric field intensity heat maps were examined at both the waveguide crossing region and the tapered sections to better understand field distribution and propagation behavior.
+
+## Why TFLN and Waveguide Crossings are Important
+
+First, it is important to understand why thin-film lithium niobate (TFLN) and waveguide crossings are attractive technologies for modern photonic integrated circuits (PICs). TFLN is a thin-film implementation of lithium niobate, as opposed to traditional bulk lithium niobate used in conventional Mach-Zehnder modulators (MZMs). By reducing the material thickness and increasing optical confinement, TFLN enables more compact and densely integrated photonic chips while improving electro-optic performance.
+
+First, it is important to understand why thin-film lithium niobate (TFLN) and waveguide crossings are attractive technologies for modern photonic integrated circuits (PICs). TFLN is a thin-film implementation of lithium niobate, as opposed to traditional bulk lithium niobate used in conventional Mach-Zehnder modulators (MZMs). By reducing the waveguide thickness, the optical mode becomes more tightly confined within the lithium niobate layer. This tighter confinement improves the spatial overlap between the optical field and the applied RF electric field, enabling more efficient electro-optic modulation while allowing photonic chips to become smaller and more densely integrated.
+
+The phase modulation induced by the electro-optic (Pockels) effect can be expressed as:
+
+$$
+\Delta \varphi = \frac{2\pi}{\lambda} \, \Delta n \, L
+$$
+
+where $\lambda$ is the optical wavelength, $L$ is the interaction length, and $\Delta n$ is the refractive index change caused by the applied electric field. The refractive index change is proportional to the electro-optic coefficient and the RF electric field:
+
+$$
+\Delta n \propto r_{33} \cdot E_{RF}
+$$
+
+The electric field between electrodes is approximately:
+
+$$
+E_{RF} = \frac{V}{d}
+$$
+
+where $V$ is the applied voltage and $d$ is the electrode separation. Because TFLN allows electrodes to be placed closer to the optical mode, the electric field experienced by the light increases for the same applied voltage. This enables the same phase shift to be achieved with a lower voltage, reducing the required half-wave voltage ($V_\pi$) and improving power efficiency.
+
+Another important advantage of TFLN is increased modulation bandwidth. The electrode structure behaves electrically like a transmission line with capacitance approximately given by:
+
+$$
+C \approx \frac{\varepsilon A}{d}
+$$
+
+where $\varepsilon$ is the permittivity, $A$ is the electrode area, and $d$ is the electrode separation. Because stronger electro-optic interaction allows shorter device lengths, the electrode area is reduced, which decreases the effective capacitance. The electrical bandwidth is related to the RC time constant:
+
+$$
+f_{3dB} = \frac{1}{2\pi RC}
+$$
+
+Reducing the capacitance increases the 3-dB bandwidth, enabling higher-speed modulation and supporting larger baud rates. Additionally, shorter device lengths reduce RF propagation distance, which minimizes microwave loss and improves high-frequency performance.
+
+As photonic devices become smaller and more densely integrated using TFLN technology, waveguide crossings become increasingly important. Dense optical routing requires careful analysis of insertion loss (IL), crosstalk (Xtalk), and reflections to ensure signal integrity is maintained in complex integrated photonic circuits.
+
+For reference, the figure below shows a TFLN structure.
+
+<img src="/images/TFLNN.jpg" width="600">
+
+Waveguide crossings enable dense optical routing by allowing multiple light paths to intersect within a photonic integrated circuit, similar to vias or wire crossings in electronic integrated circuits. Rather than directly increasing transmission speed or bandwidth, waveguide crossings improve scalability by allowing more signals and components to fit on the same chip without significantly degrading performance. In other words, they make it possible to build a more densely integrated photonic chip while keeping losses and signal distortion low enough for the system to operate efficiently.
+
+However, crossings introduce potential performance tradeoffs such as insertion loss (IL), crosstalk (Xtalk), and reflections, which must be carefully analyzed to maintain signal integrity. In TFLN photonic platforms, waveguide crossings are fabricated from the same thin-film lithium niobate waveguide structures used throughout the photonic circuit, including modulators and routing components.
+
+The figure below provides a clear visual representation of a waveguide crossing. Stream A is from port 1 to port 3 and stream B is from port 2 to port 4.
+
+<img src="/images/WG.jpg" width="600">
+
+
+We then used Lumerical to simulate IL, Xtalk and reflection through the O-Band at 27, 55, and 86 degrees celcius.
+
+This figure shows the simulated insertion loss (IL) of a TFLN waveguide crossing across the O-band wavelength range under different thermal conditions (27°C, 55°C, and 85°C). Insertion loss represents the optical power reduction between the input and output ports, primarily caused by scattering, reflections, and crosstalk introduced by the crossing geometry.
+
+<img src="/images/ILLL.jpg" width="600">
+
+
+Results show that insertion loss remains below approximately 0.14 dB across the wavelength range, indicating an efficient crossing design with minimal power penalty. The loss becomes slightly more negative as wavelength increases, which can be attributed to the expansion of the optical mode field diameter at longer wavelengths. As the mode expands, the optical beam interacts more strongly with the crossing region, leading to increased scattering and therefore higher loss.
+
+The nearly overlapping curves for different temperatures demonstrate that the crossing is relatively insensitive to thermal variations, suggesting robust performance for practical integrated photonic applications.
+
+Xtalk represents optical power that unintentionally couples into the wrong output path when light passes through a waveguide crossing. Ideally, all optical power should remain in the intended transmission path; however, due to mode overlap and scattering at the crossing region, a small portion of the optical field can leak into perpendicular waveguides.
+
+<img src="/images/Xtalk.jpg" width="600">
+
+The results show that crosstalk remains well below -40 dB across the entire wavelength range, reaching approximately -57 dB at the target wavelength. This indicates very low unwanted coupling and demonstrates that the crossing design maintains strong signal isolation.
+
+A slight increase in crosstalk is observed at longer wavelengths. As wavelength increases, the optical mode expands spatially, increasing overlap between intersecting waveguides and allowing more energy to leak into unintended ports. The nearly identical curves across different temperatures suggest that the design is relatively insensitive to thermal variations.
+
+Reflection represents the portion of the optical signal that is reflected backward toward the input port when light encounters discontinuities within the waveguide crossing. In practical terms, this corresponds to optical power that travels back toward the transmitter or receiver instead of continuing forward. Excessive reflection can interfere with subsequent data symbols by introducing delayed optical energy that overlaps with future time slots, potentially degrading signal integrity.
+
+<img src="/images/ref.jpg" width="600">
+
+The results show reflection levels around approximately -66 dB at the target wavelength, indicating very low back-reflected power and good impedance matching within the structure. An oscillatory behavior is observed across the wavelength range, which is attributed to wavelength-dependent phase changes leading to alternating constructive and destructive interference within the crossing geometry. The nearly identical curves across different temperatures suggest that reflection performance is relatively insensitive to thermal variations.
+
+To better understand the optical behavior within the TFLN waveguide crossing, electric field intensity distributions were simulated to visualize how the optical mode propagates and interacts with the device geometry. These heat maps provide insight into mode confinement and how structural features influence optical performance. The left image shows the electric field intensity at the waveguide cross-section, while the right image shows the field distribution at the tapered end of the structure.
+
+<img src="/images/EIF.jpg" width="600">
+
+The cross-section field distribution (left) shows a relatively extended optical mode profile, where the optical energy spreads laterally within the waveguide. This represents the baseline propagation condition before strong geometric shaping occurs. A wider mode profile increases interaction with surrounding structures, which can contribute to scattering or coupling effects if not properly managed.
+
+At the tapered end (right), the optical mode becomes more tightly confined due to the trapezoidal taper geometry with approximately a 70-degree sidewall slope. This gradual geometric transition compresses the optical field and increases peak intensity while avoiding abrupt discontinuities. The taper effectively performs a spatial mode transformation, helping maintain efficient coupling and minimizing reflections or additional loss. This controlled confinement contributes to improved signal integrity and supports scalable dense photonic integration.
+
+
 
 ### Next Phase - Upcoming work: TFLN Waveguide Crossing Chip & Full IM/DD TX System
 
