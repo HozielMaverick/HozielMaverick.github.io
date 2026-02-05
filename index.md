@@ -35,6 +35,8 @@ Key requirements:
   - Pressurization capability for 6,000 ft cabin altitude at maximum service ceiling
   - Capable of flight in known icing conditions
 
+  - <img src="/images/zdp.jpg" width="800">
+
 ---
 
 ### [In Progress: FAR 23 Avionics Certification Report](AERO410.md)
