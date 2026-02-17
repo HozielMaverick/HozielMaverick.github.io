@@ -16,6 +16,6 @@ The first phase of the project concentrated on preliminary weight sizing. Key ai
 
 This report investigates fundamental aerodynamic design parameters, evaluating wing configuration, airfoil characteristics, lift distribution, drag modeling, and flight performance to assess overall aircraft aerodynamic efficiency.
 
-[**Open report 2**](AERO520_REPORT2.pdf)
+[**Open Report 2**](AERO520_REPORT2.pdf)
 
 <img src="/images/LDistribution_.jpg" width="800">
