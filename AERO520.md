@@ -11,3 +11,11 @@ The first phase of the project concentrated on preliminary weight sizing. Key ai
 [**Open Report 1**](AERO520_REPORT1.pdf)
 
 <img src="/images/ro.jpg" width="800">
+
+### Report 2 - Aerodynamics
+
+This report investigates fundamental aerodynamic design parameters, evaluating wing configuration, airfoil characteristics, lift distribution, drag modeling, and flight performance to assess overall aircraft aerodynamic efficiency.
+
+[**Open report 2**](AERO_REPORT2.pdf)
+
+<img src="/images/LDistribution_.jpg" width="800">
