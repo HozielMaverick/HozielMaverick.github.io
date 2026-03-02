@@ -254,7 +254,6 @@ In this section, we used Lumerical simulations to evaluate the performance of TF
 
 First, it is important to understand why thin-film lithium niobate (TFLN) and waveguide crossings are attractive technologies for modern photonic integrated circuits (PICs). TFLN is a thin-film implementation of lithium niobate, as opposed to traditional bulk lithium niobate used in conventional Mach-Zehnder modulators (MZMs). By reducing the material thickness and increasing optical confinement, TFLN enables more compact and densely integrated photonic chips while improving electro-optic performance.
 
-First, it is important to understand why thin-film lithium niobate (TFLN) and waveguide crossings are attractive technologies for modern photonic integrated circuits (PICs). TFLN is a thin-film implementation of lithium niobate, as opposed to traditional bulk lithium niobate used in conventional Mach-Zehnder modulators (MZMs). By reducing the waveguide thickness, the optical mode becomes more tightly confined within the lithium niobate layer. This tighter confinement improves the spatial overlap between the optical field and the applied RF electric field, enabling more efficient electro-optic modulation while allowing photonic chips to become smaller and more densely integrated.
 
 The phase modulation induced by the electro-optic (Pockels) effect can be expressed as:
 
