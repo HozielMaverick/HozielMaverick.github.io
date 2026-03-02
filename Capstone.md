@@ -295,6 +295,58 @@ For reference, the figure below shows a TFLN structure.
 
 <img src="/images/TFLNN.jpg" width="800">
 
+Before discussing waveguide crossings in greater detail, let’s dive into **Why TFLN is used over Silicon Photonics, and why TFLN is called the silicon of photonics**.
+
+Silicon dominates the electronic field, but why is it not the answer in the photonics world? According to **HyperLight Corp**, there are three axes to scale data rate: spectral efficiency, number of channels, and symbol rate.
+
+The following is shown in the picture below from HyperLight's YouTube channel.
+
+<img src="/images/yt.jpg" width="800">
+
+[**YouTube Video's Link**](https://www.youtube.com/watch?v=nGqOyVoT934&t=823s)
+
+Increasing one or more of these axes increases the total optical engine capacity. Bulk LN experiences drawbacks in the number-of-channels axis due to its large device size, but performs well in the spectral efficiency and symbol rate axes. TFLN performs the best across all three axes. Silicon, however, performs strongly in the number-of-channels axis due to compact integration, but lacks performance in symbol rate (bandwidth) and in spectral efficiency (modulation quality). The reasons are discussed below.
+
+First, let’s look at the bandwidth limitation. Unlike TFLN or LN, silicon modulators rely on the free-carrier plasma dispersion effect. This means modulation is achieved by changing the carrier concentration inside a PN junction. In carrier-injection devices, the carriers have a finite recombination lifetime $\tau$, typically on the order of nanoseconds. The small-signal 3 dB bandwidth can be approximated as:
+
+$$
+f_{3dB} = \frac{1}{2\pi \tau}
+$$
+
+For example, if $\tau = 1 \text{ ns}$,
+
+$$
+f_{3dB} \approx \frac{1}{2\pi (1 \times 10^{-9})} \approx 160 \text{ MHz}
+$$
+
+Even if $\tau = 0.1 \text{ ns}$,
+
+$$
+f_{3dB} \approx 1.6 \text{ GHz}
+$$
+
+This shows why carrier-injection devices are not suitable for very high symbol rate operation.
+
+Secondly, the lower modulation efficiency means a higher voltage $V_{\pi}$ is typically required to achieve the same phase shift. TFLN and LN use the Pockels effect, which allows efficient phase modulation without changing carrier density. Silicon does not naturally exhibit a strong Pockels effect. Instead, its refractive index is related to the material permittivity:
+
+$$
+n = \sqrt{\varepsilon}
+$$
+
+where
+
+$$
+\varepsilon = \varepsilon' + j\varepsilon''
+$$
+
+The imaginary component $\varepsilon''$ introduces absorption loss (free-carrier absorption). This means that increasing the phase shift also increases optical loss. As a result, more drive voltage is required and modulation linearity is reduced compared to TFLN.
+
+This comparison is summarized in the picture below from HyperLight’s YouTube channel.
+
+<img src="/images/yt2.jpg" width="800">
+
+[**YouTube Video's Link**](https://www.youtube.com/watch?v=nGqOyVoT934&t=823s)
+
 Waveguide crossings enable dense optical routing by allowing multiple light paths to intersect within a photonic integrated circuit, similar to vias or wire crossings in electronic integrated circuits. Rather than directly increasing transmission speed or bandwidth, waveguide crossings improve scalability by allowing more signals and components to fit on the same chip without significantly degrading performance. In other words, they make it possible to build a more densely integrated photonic chip while keeping losses and signal distortion low enough for the system to operate efficiently.
 
 However, crossings introduce potential performance tradeoffs such as insertion loss (IL), crosstalk (Xtalk), and reflections, which must be carefully analyzed to maintain signal integrity. In TFLN photonic platforms, waveguide crossings are fabricated from the same thin-film lithium niobate waveguide structures used throughout the photonic circuit, including modulators and routing components.
@@ -303,13 +355,11 @@ The figure below provides a clear visual representation of a waveguide crossing.
 
 <img src="/images/WG.jpg" width="400">
 
-
 We then used Lumerical to simulate IL, Xtalk and reflection through the O-Band at 27, 55, and 86 degrees celcius.
 
 This figure shows the simulated insertion loss (IL) of a TFLN waveguide crossing across the O-band wavelength range under different thermal conditions (27°C, 55°C, and 85°C). Insertion loss represents the optical power reduction between the input and output ports, primarily caused by scattering, reflections, and crosstalk introduced by the crossing geometry.
 
 <img src="/images/ILLL.jpg" width="800">
-
 
 Results show that insertion loss remains below approximately 0.14 dB across the wavelength range, indicating an efficient crossing design with minimal power penalty. The loss becomes slightly more negative as wavelength increases, which can be attributed to the expansion of the optical mode field diameter at longer wavelengths. As the mode expands, the optical beam interacts more strongly with the crossing region, leading to increased scattering and therefore higher loss.
 
