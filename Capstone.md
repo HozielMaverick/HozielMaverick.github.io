@@ -349,7 +349,7 @@ This comparison is summarized in the picture below from **HyperLight’s** YouTu
 
 For more information on **HyperLight**, I have attached their website below.
 
-[**HyperLight Website**(https://hyperlightcorp.com/home)
+[**HyperLight Website**](https://hyperlightcorp.com/home)
 
 **Lets get back to Waveguide Crossings**
 
