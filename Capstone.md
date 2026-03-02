@@ -303,7 +303,7 @@ The following is shown in the picture below from HyperLight's YouTube channel.
 
 <img src="/images/yt.jpg" width="800">
 
-[**YouTube Video's Link**](https://www.youtube.com/watch?v=nGqOyVoT934&t=823s)
+[**YouTube Video Link**](https://www.youtube.com/watch?v=nGqOyVoT934&t=823s)
 
 Increasing one or more of these axes increases the total optical engine capacity. Bulk LN experiences drawbacks in the number-of-channels axis due to its large device size, but performs well in the spectral efficiency and symbol rate axes. TFLN performs the best across all three axes. Silicon, however, performs strongly in the number-of-channels axis due to compact integration, but lacks performance in symbol rate (bandwidth) and in spectral efficiency (modulation quality). The reasons are discussed below.
 
@@ -341,11 +341,16 @@ $$
 
 The imaginary component $\varepsilon''$ introduces absorption loss (free-carrier absorption). This means that increasing the phase shift also increases optical loss. As a result, more drive voltage is required and modulation linearity is reduced compared to TFLN.
 
-This comparison is summarized in the picture below from HyperLight’s YouTube channel.
+This comparison is summarized in the picture below from **HyperLight’s** YouTube channel.
 
 <img src="/images/yt2.jpg" width="800">
 
-[**YouTube Video's Link**](https://www.youtube.com/watch?v=nGqOyVoT934&t=823s)
+[**YouTube Video Link**](https://www.youtube.com/watch?v=nGqOyVoT934&t=823s)
+
+For more information on **HyperLight**, I have attached their website below.
+[**HyperLight Website**(https://hyperlightcorp.com/home)
+
+**Lets get back to Waveguide Crossings**
 
 Waveguide crossings enable dense optical routing by allowing multiple light paths to intersect within a photonic integrated circuit, similar to vias or wire crossings in electronic integrated circuits. Rather than directly increasing transmission speed or bandwidth, waveguide crossings improve scalability by allowing more signals and components to fit on the same chip without significantly degrading performance. In other words, they make it possible to build a more densely integrated photonic chip while keeping losses and signal distortion low enough for the system to operate efficiently.
 
