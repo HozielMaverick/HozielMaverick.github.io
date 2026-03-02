@@ -299,7 +299,7 @@ Before discussing waveguide crossings in greater detail, let’s dive into **Why
 
 Silicon dominates the electronic field, but why is it not the answer in the photonics world? According to **HyperLight Corp**, there are three axes to scale data rate: spectral efficiency, number of channels, and symbol rate.
 
-The following is shown in the picture below from HyperLight's YouTube channel.
+The following is shown in the picture below from **HyperLight's** YouTube channel.
 
 <img src="/images/yt.jpg" width="800">
 
