@@ -34,7 +34,7 @@ The test setup plan was as shown below:
 <img src="/images/yooo.jpg" width="600">
 
 
-The normalized Transfer Function (TF) is shown below
+The normalized Transfer Function (TF) is shown below:
 
 <img src="/images/mzmr1.jpg" width="600">
 
@@ -110,7 +110,7 @@ $$
 
 A Bit Pattern Generator (BPG), synchronized to an external clock, was connected to a Bit Error Analyzer (BEA), which interfaced with a Digital Communication Analyzer (DCA) to capture electrical eye diagrams and evaluate the signal-to-noise ratio (SNR) at data rates up to 70 Gbps.
 
-The test set up is shown below
+The test set up is shown below:
 
 <img src="/images/BPGGG.jpg" width="400">
 
@@ -142,14 +142,14 @@ The resulting electrical eye diagrams for data rates of 20, 32, 50, 60, and 70 G
 <img src="/images/70G.jpg" width="600">
 
 
-The SNR decreases with increasing data rate as higher bandwidth is required to preserve fast signal transitions, increasing susceptibility to noise and intersymbol interference (ISI). A significant SNR degradation occurs beyond 40 Gbps due to the 40 GHz frequency response limit of the modulator.
+The SNR decreases with increasing data rate as higher bandwidth is required to preserve fast signal transitions, increasing susceptibility to noise and intersymbol interference (ISI).
 
 
 ### Phase 3 — IM/DD MZM
 
 For this experiment, an IM/DD MZM setup was evaluated at three data rates over fiber lengths of 0 km and 5 km.
 
-The test setup is shown below
+The test setup is shown below:
 
 <img src="/images/imddmzm.jpg" width="800">
 
