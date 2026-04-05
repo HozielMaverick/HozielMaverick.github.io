@@ -147,26 +147,26 @@ The SNR decreases with increasing data rate as higher bandwidth is required to p
 
 ### Phase 3 — IM/DD MZM
 
-For this experiment, an IM/DD MZM setup was evaluated at three data rates over fiber lengths of 0 km and 5 km.
+For this experiment, an IM/DD MZM setup was evaluated at three data rates over fiber lengths of 0 km, 2km, and 5 km.
 
 The test setup is shown below:
 
 <img src="/images/imddmzm.jpg" width="800">
 
 The resulting optical eye diagrams for the 0km fiber optic capbles are shown below for 
-10, 21, 28 Gbps respectively
+20, 42, 56 Gbps respectively
 
 <ins><b>0km</b></ins>
 
-**10Gbps**
+**20Gbps**
 
 <img src="/images/0_10G.jpg" width="600">
 
-**21Gbps**
+**42Gbps**
 
 <img src="/images/0_21G.jpg" width="600">
 
-**28Gbps**
+**56Gbps**
 
 <img src="/images/0_28G.jpg" width="600">
 
@@ -175,15 +175,15 @@ Although the eye diagrams remain reasonably open, they exhibit noticeably degrad
 
 <ins><b>5km</b></ins>
 
-**10Gbps**
+**20Gbps**
 
 <img src="/images/5_10G.jpg" width="600">
 
-**21Gbps**
+**42Gbps**
 
 <img src="/images/5_21G.jpg" width="600">
 
-**28Gbps**
+**56Gbps**
 
 <img src="/images/5_28G.jpg" width="600">
 
@@ -245,6 +245,10 @@ At shorter wavelengths, material dispersion is negative while waveguide dispersi
 As the wavelength continues to increase into the C-band, material dispersion grows more rapidly than waveguide dispersion decreases. Consequently, the cancellation no longer occurs, and the resulting chromatic dispersion becomes non-zero. This behavior is illustrated in the figure below.
 
 <img src="/images/disp.jpg" width="600">
+
+The best performance in terms of both data rate and transmission distance with a clear eye diagram was 42 Gbaud over a 2 km link. This was achieved in the C-band without DSP.
+
+<img src="/images/2km42Gbps.jpg" width="600">
 
 ### Phase 4 - TFLN Waveguide Crossing Simulations
 
