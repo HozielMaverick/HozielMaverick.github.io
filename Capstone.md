@@ -246,7 +246,7 @@ As the wavelength continues to increase into the C-band, material dispersion gro
 
 <img src="/images/disp.jpg" width="600">
 
-The best performance in terms of both data rate and transmission distance with a clear eye diagram was 42 Gbaud over a 2 km link. This was achieved in the C-band without DSP.
+The best performance in terms of both data rate and transmission distance with a clear eye diagram was **42Gbaud** over a **2km link**. This was achieved in the C-band without DSP.
 
 <img src="/images/2km42Gbps.jpg" width="600">
 
