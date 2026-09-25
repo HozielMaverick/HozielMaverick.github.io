@@ -1,4 +1,4 @@
-**Status as of April 2028, 2026**
+**Status as of August 22, 2026**
 
 The project followed a structured experimental workflow beginning with Mach–Zehnder modulator characterization, then extending to evaluation of the TFLN modulation platform, and culminating in link level assessment of IM/DD performance and signal integrity.
 
