@@ -5,7 +5,7 @@ This site contains my technical projects, simulations, and system designs.
 
 ## Projects
 
-### [Designing TFLN-based IM/DD links to increase data-center bandwidth](Capstone.md)
+### [Designing TFLN-based IM/DD links to support future AI demand](Capstone.md)
 
 This work investigates high-speed IM/DD optical transmission using TFLN-based modulation integrated on PICs operating in the O-band. A key emphasis is placed on waveguide crossings, where insertion loss (IL), crosstalk, and back-reflections are analyzed to understand their impact on overall link performance and signal integrity at elevated data rates.
 
