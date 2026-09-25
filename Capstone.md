@@ -1,4 +1,4 @@
-**Status as of January 30, 2026**
+**Status as of April 2028, 2026**
 
 The project followed a structured experimental workflow beginning with Mach–Zehnder modulator characterization, then extending to evaluation of the TFLN modulation platform, and culminating in link level assessment of IM/DD performance and signal integrity.
 
@@ -395,11 +395,15 @@ To better understand the optical behavior within the TFLN waveguide crossing, el
 
 The cross-section field distribution (left) shows a relatively extended optical mode profile, where the optical energy spreads laterally within the waveguide. This represents the baseline propagation condition before strong geometric shaping occurs. A wider mode profile increases interaction with surrounding structures, which can contribute to scattering or coupling effects if not properly managed.
 
-At the tapered end (right), the optical mode becomes more tightly confined due to the trapezoidal taper geometry with approximately a 70-degree sidewall slope. This gradual geometric transition compresses the optical field and increases peak intensity while avoiding abrupt discontinuities. The taper effectively performs a spatial mode transformation, helping maintain efficient coupling and minimizing reflections or additional loss. This controlled confinement contributes to improved signal integrity and supports scalable dense photonic integration.
+At the tapered end (right), the optical mode becomes more tightly confined due to the trapezoidal taper geometry with approximately a 70-degree sidewall slope. This gradual geometric transition compresses the optical field and increases peak intensity while avoiding abrupt discontinuities. The taper effectively performs a spatial mode transformation, helping maintain efficient coupling and minimizing reflections or additional loss. This controlled confinement contributes to improved signal integrity and supports scalable dense photonic integration. 
 
 
+### Conclusion
 
-### Next Phase - Upcoming work: TFLN Waveguide Crossing Chip & Full IM/DD TX System
+Our capstone group began this project with very little knowledge of photonics or optical communications. In a short time, we developed a practical understanding of Mach–Zehnder modulation, how to bias a modulator, and why maintaining the correct bias point is important. We also gained hands-on experience using a digital communications analyzer (DCA) and the SHF-12103A 128 Gbps bit-pattern generator.
 
-The next phase of the project is to experimentally characterize TFLN modulators and waveguide crossings on chips in order to evaluate their performance, benefits, and limitations. These measurements will be directly compared with results obtained from Lumerical simulations to assess model accuracy and identify discrepancies. The final stage of the project will consist of implementing a complete IM/DD system incorporating TFLN modulation and waveguide crossings.
+We learned about the advantages of lithium niobate, particularly thin-film lithium niobate (TFLN), for high-speed optical modulation. Since an O-band laser was not available for our experimental setup, transmitting data over several kilometres in the C-band allowed us to directly observe and investigate the effects of chromatic dispersion.
 
+Our group would like to thank Benton Qiu and Professor David Plant of McGill University for their guidance and for giving us the opportunity to work on such an interesting and relevant project.
+
+For me personally, this project led to an incredible summer internship at HyperLight Corporation in Cambridge, Massachusetts, where I gained further hands-on experience working with TFLN photonic integrated circuits for datacom applications.
