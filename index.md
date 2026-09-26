@@ -1,12 +1,18 @@
 # Maverick Hoziel - Engineering Portfolio
 
-<img src="/images/laxheadshot.jpg" width="500">
+<img src="/images/laxheadshot.jpg" width="300">
+
 Hi!
+
 My name is Maverick and I am an electrical engineering student with a minor in aerospace engineering at McGill University in Montreal.
 
+Welcome to my Electrical/Aerospace Engineering Portfolio. This site contains my technical projects, simulations, and system designs.
 
-Welcome to my Electrical/Aerospace Engineering Portfolio.
-This site contains my technical projects, simulations, and system designs.
+- Designing TFLN-based IM/DD Links to Support Future AI Demand
+- AA-1 Yankee Electrical Propulsion Conversion
+- Fly-by-Wire Aircraft Simulation With Yaw and Roll Stabilization
+- Missile Tracking Simulation
+- Circuit Simulation Solver
 
 ## Projects
 
