@@ -1,6 +1,6 @@
 # Maverick Hoziel - Engineering Portfolio
 
-<img src="/images/laxheadshot.jpg" width="100">
+<img src="/images/laxheadshot.jpg" width="200">
 
 Hi!
 
