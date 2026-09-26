@@ -1,5 +1,10 @@
 # Maverick Hoziel - Engineering Portfolio
 
+<img src="/images/laxheadshot.jpg" width="500">
+Hi!
+My name is Maverick and I am an electrical engineering student with a minor in aerospace engineering at McGill University in Montreal.
+
+
 Welcome to my Electrical/Aerospace Engineering Portfolio.
 This site contains my technical projects, simulations, and system designs.
 
