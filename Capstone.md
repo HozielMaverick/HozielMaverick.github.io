@@ -404,7 +404,7 @@ Our capstone group began this project with very little knowledge of photonics or
 
 We learned about the advantages of lithium niobate, particularly thin-film lithium niobate (TFLN), for high-speed optical modulation. Since an O-band laser was not available for our experimental setup, transmitting data over several kilometres in the C-band allowed us to directly observe and investigate the effects of chromatic dispersion.
 
-Here is the final poster presentation that we presented at the McGill Capstone Project Deseing-Day in Match 2026
+Here is the final poster presentation that we presented at the McGill Capstone Project Design-Day in March 2026
 
 <img src="/images/CPGV2.jpg" width="1000">
 
